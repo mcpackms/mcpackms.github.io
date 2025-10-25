@@ -1,0 +1,25 @@
+baseURL = 'https://mcpackms.github.io/'
+languageCode = 'zh-CN'
+title = 'mcpackms'
+theme = "stack"
+
+# Stack 主题需要的基础配置
+[params]
+  themeColor = "light"  # 或 "dark"
+  defaultTheme = "light"  # 默认主题
+
+[menu]
+  [[menu.main]]
+    name = "首页"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "文章"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "标签"
+    url = "/tags/"
+    weight = 3
