@@ -1,6 +1,6 @@
 baseURL = 'https://mcpackms.github.io/'
 languageCode = 'zh-CN'
-title = 'mcpackms'
+title = '一支电笔'
 theme = "stack"
 
 # Stack 主题需要的基础配置
