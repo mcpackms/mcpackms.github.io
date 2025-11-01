@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>一支电笔</title>
+        <link>http://localhost:1313/</link>
+        <description>Recent content on 一支电笔</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-CN</language>
+        <lastBuildDate>Sat, 25 Oct 2025 20:18:24 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>关于我</title>
+        <link>http://localhost:1313/posts/%E5%85%B3%E4%BA%8E%E6%88%91/</link>
+        <pubDate>Sat, 25 Oct 2025 20:18:24 +0800</pubDate>
+        
+        <guid>http://localhost:1313/posts/%E5%85%B3%E4%BA%8E%E6%88%91/</guid>
+        <description>&lt;h2 id=&#34;大家好-这里是一支电笔&#34;&gt;&lt;em&gt;大家好!&lt;/em&gt; 这里是“一支电笔”
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;在家做的事:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;捣鼓命令行&lt;br&gt;
+宅着&amp;hellip;&lt;br&gt;
+没事去同学家串串&lt;br&gt;
+玩玩linux&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;&#34;&gt;
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;玩些什么:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;单机小游戏&lt;br&gt;
+一些米家游戏&lt;br&gt;
+还有更多&amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;&#34;&gt;
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;做过的坏事:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;偷了学校云电脑的账号和密码&lt;br&gt;
+给分老师希沃白板账号密码记在小本本上&lt;br&gt;
+给学校云电脑桌面上放格机脚本(云电脑炸了，但我修好了)&lt;br&gt;
+“定时炸弹”(^_^;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;&#34;&gt;
+&lt;/h3&gt;</description>
+        </item>
+        <item>
+        <title>Hello</title>
+        <link>http://localhost:1313/posts/hello/</link>
+        <pubDate>Sat, 25 Oct 2025 15:29:41 +0800</pubDate>
+        
+        <guid>http://localhost:1313/posts/hello/</guid>
+        <description>&lt;img src="http://localhost:1313/img/1.png" alt="Featured image of post Hello" /&gt;&lt;h1 id=&#34;这是一个测试帖子&#34;&gt;这是一个测试帖子
+&lt;/h1&gt;&lt;p&gt;&lt;code&gt;hello world&lt;/code&gt;&lt;br&gt;
+测试&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;test&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>Test</title>
+        <link>http://localhost:1313/tags/test/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/test/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
