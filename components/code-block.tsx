@@ -12,14 +12,27 @@ export function CodeBlockWrapper({ children }: { children: React.ReactNode }) {
     preElements.forEach((pre) => {
       if (pre.parentElement?.classList.contains('code-block-wrapper')) return;
 
+      const code = pre.querySelector('code');
+      let language = 'code';
+
+      if (code?.className) {
+        const match = code.className.match(/language-(\w+)/);
+        if (match) {
+          language = match[1];
+        }
+      }
+
+      const figure = pre.closest('figure');
+      if (figure?.dataset?.language) {
+        language = figure.dataset.language;
+      }
+
       const wrapper = document.createElement('div');
       wrapper.className = 'code-block-wrapper';
       
       const header = document.createElement('div');
       header.className = 'code-block-header';
 
-      const code = pre.querySelector('code');
-      const language = code?.className.match(/language-(\w+)/)?.[1] || 'code';
       header.textContent = language;
 
       const copyBtn = document.createElement('button');

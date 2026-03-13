@@ -62,11 +62,13 @@ export async function getPostData(id: string): Promise<PostData> {
     .use(remarkParse)
     .use(remarkRehype)
     .use(rehypePrettyCode, {
-      theme: {
-        dark: 'github-dark',
-        light: 'github-light',
-      },
+      theme: 'github-dark',
       keepBackground: true,
+      onVisitLine(node) {
+        if (node.children.length === 0) {
+          node.children = [{ type: 'text', value: ' ' }];
+        }
+      },
     })
     .use(rehypeStringify)
     .process(matterResult.content);
