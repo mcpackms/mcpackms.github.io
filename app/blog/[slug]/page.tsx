@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { getAllPostIds, getPostData } from '@/lib/posts';
+import { CodeBlockWrapper } from '@/components/code-block';
 
 export async function generateStaticParams() {
   const paths = getAllPostIds();
@@ -27,10 +28,12 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
           <time className="text-zinc-500 dark:text-zinc-400">{postData.date}</time>
         </header>
 
-        <div
-          className="prose prose-zinc dark:prose-invert max-w-none"
-          dangerouslySetInnerHTML={{ __html: postData.contentHtml || '' }}
-        />
+        <CodeBlockWrapper>
+          <div
+            className="prose prose-zinc dark:prose-invert max-w-none"
+            dangerouslySetInnerHTML={{ __html: postData.contentHtml || '' }}
+          />
+        </CodeBlockWrapper>
       </article>
     </div>
   );
